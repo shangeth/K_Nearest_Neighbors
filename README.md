@@ -26,7 +26,8 @@ accu_sk_knn = accuracy_score(pred_sk_knn,y_test)
 print("Accuracy of SKLearn KNN : ", accu_sk_knn)
 
 ```
-##Output for the Iris Data:
+<h2>Output for the Iris Data:</h2>
+
 ```
 Accuracy of KNNClassifier :  0.9666666666666667
 Accuracy of SKLearn KNN :  0.9666666666666667

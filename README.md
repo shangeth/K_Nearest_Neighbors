@@ -2,6 +2,8 @@
 </h1>
 
 ```
+n = int(input("Value of k : "))
+
 
 X_train = features to train
 y_train = labels to train
@@ -9,7 +11,7 @@ X_test = testing features
 y_test = testing features
 
 from KNNClassifier import knnClassifier
-clf = knnClassifier(k=3)
+clf = knnClassifier(k=n)
 clf.fit(X_train,y_train)
 pred = clf.pred(X_test)
 acc_knn = clf.accuracy(y_test,pred)
